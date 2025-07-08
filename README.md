@@ -1,73 +1,52 @@
-📝 Todo List App (React)
-A simple and elegant Todo List application built using React. It allows users to add, delete, and manage daily tasks efficiently.
+<h1 align="center">📝 React Todo List App</h1>
 
-🔗 Live Demo
-Click here to view the app <!-- Replace with actual link if deployed -->
+<p align="center">
+  A clean, responsive Todo List app built using <b>React</b> and <b>Bootstrap</b> 💻. <br/>
+  Add, view, and delete your daily tasks in a sleek UI.
+</p>
 
-✨ Features
-➕ Add new tasks with a title and description
+<p align="center">
+  <a href="https://your-netlify-link.netlify.app" target="_blank">🌐 Live Demo</a> •
+  <a href="https://github.com/Kunal9988/Todos-List/issues">🐞 Report Bug</a> •
+  <a href="https://github.com/Kunal9988/Todos-List/pulls">🚀 Request Feature</a>
+</p>
 
-✅ Mark tasks as done (optional for future version)
+---
 
-🗑️ Delete individual tasks
+## 📸 Preview
 
-📂 Stores todos in state (no backend)
+> *Add your screenshot or demo here if available*
 
-🧼 Input validation to prevent blank entries
+![Todo App Screenshot](https://via.placeholder.com/800x400?text=Todo+List+App+Preview)
 
-📱 Responsive UI using Bootstrap
+---
 
-🛠️ Tech Stack
-Tech	Description
-React	Frontend UI library
-Bootstrap	Responsive design and layout
-HTML/CSS	Structure and styling
-JavaScript (ES6)	Logic and interactivity
+## ✨ Features
 
-📸 Screenshots
-<!-- Add your own screenshots -->
-nginx
-Copy code
-Coming Soon...
-🚀 Getting Started
-1. Clone the repository
-bash
-Copy code
+✅ Add new todo with title and description  
+✅ Delete tasks from the list  
+✅ Alert on empty submission  
+✅ Component-based structure  
+✅ Responsive design with Bootstrap  
+🚫 No backend required
+
+---
+
+## 🧩 Tech Stack
+
+| Tech       | Role                  |
+|------------|-----------------------|
+| React      | Frontend framework    |
+| JavaScript | App logic             |
+| Bootstrap  | Styling & layout      |
+| HTML/CSS   | Structure & UI design |
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/Kunal9988/Todos-List.git
 cd Todos-List
-2. Install dependencies
-bash
-Copy code
-npm install
-3. Run the app locally
-bash
-Copy code
-npm start
-The app will open at http://localhost:3000.
-
-📁 Folder Structure
-css
-Copy code
-src/
-├── mycomponent/
-│   ├── AddTodos.js
-│   ├── Header.js
-│   ├── Todos.js
-│   ├── TodoItem.js
-│   └── Footer.js
-├── App.js
-└── index.js
-🧠 Future Improvements
-Add due dates for tasks
-
-Save todos to localStorage or backend
-
-Add filters: All / Completed / Pending
-
-Add dark mode support
-
-🙌 Acknowledgements
-Built as a practice project for learning React fundamentals.
-
-📜 License
-This project is licensed under the MIT License.
