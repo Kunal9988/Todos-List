@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://your-netlify-link.netlify.app" target="_blank">🌐 Live Demo</a> •
+  <a href="https://todoslist9.netlify.app/" target="_blank">🌐 Live Demo</a> •
   <a href="https://github.com/Kunal9988/Todos-List/issues">🐞 Report Bug</a> •
   <a href="https://github.com/Kunal9988/Todos-List/pulls">🚀 Request Feature</a>
 </p>
