@@ -5,7 +5,7 @@ export default function Header(props) {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">{props.title}</a>
+        <a className="navbar-brand" link="#">{props.title}</a>
         <button
           className="navbar-toggler"
           type="button"
@@ -17,13 +17,13 @@ export default function Header(props) {
         {props.listOptions ? <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active" href="#">Home</a>
+              <a className="nav-link active" link="#">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Features</a>
+              <a className="nav-link" link="#">Features</a>
             </li>
            <li className="nav-item">
-              <a className="nav-link" href="#">Pricing</a>
+              <a className="nav-link" link="#">Pricing</a>
             </li>
           </ul>
         </div>: "no options"}
